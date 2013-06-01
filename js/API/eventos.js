@@ -43,5 +43,12 @@ $(document).ready(function(){
 			else
 				reservaInt(th, pr, hb, ds);
 		});
+		$('#page  li:eq(1)').tap( //indice 
+		function(){
+			leerHistorial();
+		});
+		document.addEventListener("online",function(){
+					
 	}, false);
+	
 });
